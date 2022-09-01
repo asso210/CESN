@@ -7,4 +7,12 @@ CESN architecture in details is shown in the figure below
 
 <img src="images/cesn.png" alt="cesn_architecture" width="650"/>
 
-* Input layer:
+* Input layer: It brings the input data, that can be univariate or multivariate timeseries, into the next layer.
+
+* Reservoir layer: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. 
+
+* Convolutional layer:
+* Flattening layer:
+* Fully Connected layer:
+
+
