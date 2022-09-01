@@ -6,3 +6,5 @@ Here we present and describe in detail a new neural network architecture called 
 CESN architecture in details is shown in the figure below 
 
 <img src="images/cesn.png" alt="cesn_architecture" width="650"/>
+
+* Input layer:
