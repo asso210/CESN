@@ -19,11 +19,11 @@ CESN architecture in details is shown in the figure below
 
 # CESN - Classification
 
-CESN can be used for time series classification tasks. Here we present some example how to use it for the classification task. 
+CESN can be used for time series classification tasks. Here we present some examples how to use it for the classification task. 
 We consider three different dataset, typically used in this context:
-*SisFall dataser
-*ECG200 
-*ECG5000
+* SisFall dataser
+* ECG200 
+* ECG5000
 
 
 
