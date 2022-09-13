@@ -17,6 +17,13 @@ CESN architecture in details is shown in the figure below
 * **Flattening layer**: In this layer approaching data from the convolutional layer are flatted to be fed into the next layer. This means that data coming from the convolutional layer, which is a tensor with rank 3 are mapped into a 1-D array, a vector, in order to be feed into the fully connected layer.
 * **Fully Connected layer**: This is just a simple deep forward neural network used for the classification of time series transformed by the previous layer into a specific feature.
 
+# CESN - Classification
+
+CESN can be used for time series classification tasks. Here we present some example how to use it for the classification task. 
+We consider three different dataset, typically used in this context:
+*SisFall dataser
+*ECG200 
+*ECG5000
 
 
 
