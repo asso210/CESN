@@ -8,11 +8,7 @@ CESN architecture in details is shown in the figure below
 <img src="images/cesn.png" alt="cesn_architecture" width="650"/>
 
 * **Input layer**: It brings the input data, that can be univariate or multivariate timeseries, into the next layer.
-
-* **Reservoir layer**: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. Mathematically can be describe in the following way. Let $x(t) \in \mathbb{R}^T $ be the input of the system, where $T$ is the length of the time series (consider just univariate time series). After the reservoir layer we have 
-
-![](https://latex.codecogs.com/svg.image?\vec{z}(t&plus;1)&space;=&space;f(W^{in}x(t&plus;1)&plus;W^{res}z(t))&space;\in&space;\mathbb{R}^M)
-
+* **Reservoir layer**: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. Mathematically can be describe in the following way.
 * **Convolutional layer**: Same as the CNNs this layer consists of a convolutional and a pooling phase in which the features of the reservoir state are extracted in the same way performed  in  image classification.
 * **Flattening layer**: In this layer approaching data from the convolutional layer are flatted to be fed into the next layer. This means that data coming from the convolutional layer, which is a tensor with rank 3 are mapped into a 1-D array, a vector, in order to be feed into the fully connected layer.
 * **Fully Connected layer**: This is just a simple deep forward neural network used for the classification of time series transformed by the previous layer into a specific feature.
