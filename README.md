@@ -21,9 +21,8 @@ CESN architecture in details is shown in the figure below
 
 CESN can be used for time series classification tasks. Here we present some examples how to use it for the classification task. 
 We consider three different dataset, typically used in this context:
-* SisFall dataser
-* ECG200 
-* ECG5000
-
+* SisFall dataser - [https://github.com/your_username/repo_name](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5298771/))
+* ECG200 - [https://timeseriesclassification.com/description.php?Dataset=ECG200](https://timeseriesclassification.com/description.php?Dataset=ECG200)
+* ECG5000 - [https://timeseriesclassification.com/description.php?Dataset=ECG5000](https://timeseriesclassification.com/description.php?Dataset=ECG5000)
 
 
