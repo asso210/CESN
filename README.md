@@ -13,6 +13,10 @@ CESN architecture in details is shown in the figure below
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\vec{z}(t+1) = f(W^{in}x(t+1)+W^{res}z(t)) \in \mathbb{R}^M" title="\Large \vec{z}(t+1) = f(W^{in}x(t+1)+W^{res}z(t)) \in \mathbb{R}^M" />
 
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
+
 * **Convolutional layer**:
 * **Flattening layer**:
 * **Fully Connected layer**:
