@@ -11,7 +11,7 @@ CESN architecture in details is shown in the figure below
 
 * **Reservoir layer**: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large \vec{z}(t+1) = f(W^{in}x(t+1)+W^{res}z(t)) \in \mathbb{R}^M" />
 
 * **Convolutional layer**:
 * **Flattening layer**:
