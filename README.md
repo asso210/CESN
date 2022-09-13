@@ -13,8 +13,10 @@ CESN architecture in details is shown in the figure below
 
 ![](https://latex.codecogs.com/svg.image?\vec{z}(t&plus;1)&space;=&space;f(W^{in}x(t&plus;1)&plus;W^{res}z(t))&space;\in&space;\mathbb{R}^M)
 
-* **Convolutional layer**:
-* **Flattening layer**:
-* **Fully Connected layer**:
+* **Convolutional layer**: Same as the CNNs this layer consists of a convolutional and a pooling phase in which the features of the reservoir state are extracted in the same way performed  in  image classification.
+* **Flattening layer**: In this layer approaching data from the convolutional layer are flatted to be fed into the next layer. This means that data coming from the convolutional layer, which is a tensor with rank 3 are mapped into a 1-D array, a vector, in order to be feed into the fully connected layer.
+* **Fully Connected layer**: This is just a simple deep forward neural network used for the classification of time series transformed by the previous layer into a specific feature.
+
+
 
 
