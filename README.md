@@ -9,7 +9,7 @@ CESN architecture in details is shown in the figure below
 
 * **Input layer**: It brings the input data, that can be univariate or multivariate timeseries, into the next layer.
 
-* **Reservoir layer**: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. 
+* **Reservoir layer**: This layer aims to project the input data into a high dimensional space, trough temporal and non-linear activation functions of each neuron into the reservoir. This dimensional augmentation allows visualizing more patterns than the data in the original dimension. Mathematically can be describe in the following way. Let $x(t) \in \mathbb{R}^T $ be the input of the system, where $T$ is the length of the time series (consider just univariate time series). After the reservoir layer we have 
 
 ![](https://latex.codecogs.com/svg.image?\vec{z}(t&plus;1)&space;=&space;f(W^{in}x(t&plus;1)&plus;W^{res}z(t))&space;\in&space;\mathbb{R}^M)
 
