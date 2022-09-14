@@ -50,7 +50,10 @@ where
 ```python
 internal_states = esn_train.fit_internal_state(input_ESN)
 ```
-where input_ESN is the single time series. 
+where input_ESN is the single time series to be fed into the keras model. 
+
+The keras model 
+1.
 
 # CESN - Regression
 
