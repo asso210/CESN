@@ -34,8 +34,8 @@ Here, the implementation of the CESN is done in two different way:
 You can collect all the internal state of the reservoir for each time series using the following function:
 
 ```python
- esn_ = ESN(N_inputs = N_input,
-            N_reservoir = N_reservoir,
+ esn = ESN(N_inputs = n_input,
+            N_reservoir = n_reservoir,
             noise=0.01,
             spectral_radius = 0.94,
             random_state=40)
