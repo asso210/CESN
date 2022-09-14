@@ -34,13 +34,23 @@ Here, the implementation of the CESN is done in two different way:
 You can collect all the internal state of the reservoir for each time series using the following function:
 
 ```python
- esn = ESN(N_inputs=n_input,
+ esn_train = ESN(N_inputs=n_input,
             N_reservoir=n_reservoir,
             noise=0.01,
             spectral_radius = 0.94,
             random_state=40)
 ```
+where 
+* N_inputs
+* N_reservoir
+* noise
+* spectral_radius
+* random_state
 
+```python
+internal_states = esn_train.fit_internal_state(input_ESN)
+```
+where input_ESN is the single time series. 
 
 # CESN - Regression
 
