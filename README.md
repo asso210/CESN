@@ -30,7 +30,7 @@ https://github.com/Fall-Prevention-Team/sisfallData
 **CESN implementation**
 Here, the implementation of the CESN is done in two different way:
 
-* In the first one we separate the convolutional part from the reservoir part. In particular, we developed a code just to implent the Reservoir State. After collecting all the data, for each time series, we pass the data to the convolutional layer which is implemented using the open source library Keras. 
+1. In the first one we separate the convolutional part from the reservoir part. In particular, we developed a code just to implent the Reservoir State. After collecting all the data, for each time series, we pass the data to the convolutional layer which is implemented using the open source library Keras. 
 You can collect all the internal state of the reservoir for each time series using the following function:
 
 ```python
@@ -53,7 +53,6 @@ internal_states = esn_train.fit_internal_state(input_ESN)
 where input_ESN is the single time series to be fed into the keras model. 
 
 The keras model 
-1.
 
 # CESN - Regression
 
