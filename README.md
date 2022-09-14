@@ -23,4 +23,6 @@ We consider three different dataset, typically used in this context:
 
 Here you can find the ECG200 and ECG500 dataser, while the SisFall dataset is avalaible at the following link
 
-In the folder /
+https://github.com/Fall-Prevention-Team/sisfallData
+
+
