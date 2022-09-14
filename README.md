@@ -54,6 +54,8 @@ where input_ESN is the single time series to be fed into the keras model.
 
 The keras model 
 
+2. In the second implementation we created a customized layer directly from Keras. So we don't need to generate the internal state anymore. This is done directly in the Keras model. You just have to create a vector with all the time series to be fed into the Keras model. 
+
 # CESN - Regression
 
 Still in progress ...
