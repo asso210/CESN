@@ -28,6 +28,18 @@ Here you can find the ECG200 and ECG500 dataset, while the SisFall dataset is av
 https://github.com/Fall-Prevention-Team/sisfallData
 
 **CESN implementation**
+Here, the implementation of the CESN is done in two different way:
+
+* In the first one we separate the convolutional part from the reservoir part. In particular, we developed a code just to implent the Reservoir State. After collecting all the data, for each time series, we pass the data to the convolutional layer which is implemented using the open source library Keras. 
+You can collect all the internal state of the reservoir for each time series using the following function:
+
+```python
+ esn_ = ESN(N_inputs = N_input,
+            N_reservoir = N_reservoir,
+            noise=0.01,
+            spectral_radius = 0.94,
+            random_state=40)
+```
 
 
 # CESN - Regression
